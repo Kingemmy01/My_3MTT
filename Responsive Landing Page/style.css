@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color:
+}
+
+/* Hero Section */
+.hero {
+    background-color: rgba(3, 61, 32, 0.966);
+    color: white;
+    padding: 50px 20px;
+}
+.cta-button {
+    display:inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px 0px 10px;
+    background-color: #0a9c11d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+ /* Features Section */
+.Section-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+}
+.feature {
+            background: #f3f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+ .feature img {
+            width: 200px;
+            height: 140px;
+ }
+
+
+ /* Footer Section */
+ .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+
+
+/* Responsiveness for Screen sizes */
+@media (max-width:768px) {
+    .Section-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
